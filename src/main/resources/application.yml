@@ -1,0 +1,9 @@
+sfg.brewery.apihost: "http://localhost:8080"
+
+logging.level.org.apache.http: debug
+
+http.client.apache:
+  max-total: 100
+  max-per-route: 20
+  request-timeout: 3000
+  socket-timeout: 3000
